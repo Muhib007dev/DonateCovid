@@ -107,6 +107,7 @@ export class Autocomplete extends Component {
                         onChange={onChange}
                         onKeyDown={onKeyDown}
                         value={userInput}
+                        placeholder="Search State"
                     />
 
                 </div>

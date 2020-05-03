@@ -376,9 +376,7 @@ function CardsSearch(props) {
     else {
         return (
             <div className="flex" id="box">
-                <div className="box color2" id="box">
-                    <h2 className="mainstate">Search By State Name</h2>
-                </div>
+
             </div>
         )
     }
