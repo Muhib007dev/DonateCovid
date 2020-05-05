@@ -6,6 +6,7 @@ import Pnt from './Pnt.js'
 import Spreads from './Spreads.js'
 import Symptoms from './Symptoms.js'
 import Donation from './Donation.js';
+import Form from './formapp.js';
 const Main =() => (
 	<Switch>
 	<Route exact path="/" component ={LandingPage} />
@@ -14,7 +15,7 @@ const Main =() => (
 	<Route path ="/Pnt" component={Pnt} />
 	<Route path ="/Symptoms" component={Symptoms} />
 	<Route path ="/Donation" component={Donation} />
-
+        <Route path ="/formapp" component={Form}/>
 
 
 	</Switch>

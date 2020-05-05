@@ -17,10 +17,11 @@ class App extends Component {
                 <Link to="/Symptoms">Symptoms</Link>
                 <Link to="/Spreads">How it spreads ?</Link>
                 <Link to="/Pnt">Prevention & Treatment</Link>
+                <Link to="/formapp">Share a Donation Link </Link>
               
             </Navigation>
         </Header>
-        <Drawer className="header-color" title={<Link style={{textDecoration:'none', color:'black'}}
+        <Drawer title={<Link style={{textDecoration:'none', color:'black'}}
         to="/">Donate COVID</Link>} scroll>
             <Navigation>
                 <Link to="/Donation">Donation Link</Link>
@@ -28,6 +29,7 @@ class App extends Component {
                 <Link to="/Symptoms">Symptoms</Link>
                 <Link to="/Spreads">How it spreads ?</Link>
                 <Link to="/Pnt">Prevention & Treatment</Link>
+                <Link to="/formapp">Share a Donation Link </Link>
                 
             </Navigation>
         </Drawer>

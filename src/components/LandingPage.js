@@ -7,7 +7,7 @@ class Landing extends Component {
   		<Grid className="landing-grid">
   		<Cell col ={12}>
   		<img
-  			src="http://www.pngmart.com/files/12/COVID-19-Virus-PNG-Transparent-Image.png"
+  			src="http://www.pngmart.com/files/11/Donate-Charity-Transparent-Background.png"
   			alt="avatar"
   			className="avatar-img"
         class="center"
@@ -16,7 +16,7 @@ class Landing extends Component {
   			<h1>Donate for COVID-19</h1>
   			<hr/>
   			<p>Let’s support organisations working on the ground to provide COVID-19 relief and aid! Contribute to any of the fundraisers to support India’s fight against the coronavirus and help the less privileged during this lockdown. </p>
-  			<p>This WebApp is made to ease your access for donating to the genuine organisations all over India.Support the noble cause </p>
+  			<p>This Website is made to ease your access for donating to the genuine organisations all over India.Support the noble cause </p>
   			</div>
 
   		</Cell>
